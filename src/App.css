@@ -1,0 +1,145 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+body{
+  background: rgba(16, 14, 29, 1);
+
+}
+
+.App {
+  text-align: center;
+  background: rgba(16, 14, 29, 1);
+  height: 1744px;
+  
+}
+
+.input-group{
+  width: 60%;
+}
+
+.card{
+  max-width: 60%;
+}
+
+.card-title{
+  font-size: 60px;
+  position: absolute;
+  padding: 20px;
+  padding-left: 7px;
+}
+
+.card-date{
+  position: absolute;
+  font-size: 20px;
+  padding-left: 7px;
+  margin-top: 100px;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 7px;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  font-size: 35px;
+  padding-left: 7px;
+  margin-top: 220px;
+}
+.imagen{
+  padding-top: 58px;
+  background: rgba(30, 33, 58, 1); 
+  padding-bottom: 372px;
+  height: 449px;
+  padding-left: 109px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.uno{
+ padding: 200px;
+ background-image: url(./components/imagenes/Cloud-background.png);
+ padding-top: 58px;
+ padding-left: 109px;
+}
+.colores{
+  color: #fff;
+}
+
+.cuadro{
+  width: 150px;
+  background: rgba(30, 33, 58, 1);
+  padding: 1rem;
+  margin: 1rem;
+}
+.dos{
+  align-items: center;
+  width: 400px;
+  height: 70px;    
+  padding-top: 27px;
+
+}
+.completa{
+  flex-wrap: wrap;
+}
+.dias{
+  display: flex;
+  flex-wrap: wrap;
+}
+.estadisticas{
+  display: flex;
+  width: 387px;
+  flex-wrap: wrap;
+
+}
+
+
+@media (min-width:700px){
+ .App{
+  height: 809px;
+ }
+ .uno{
+  flex-wrap: nowrap;
+  display: flex;
+ } 
+ .imagen{ 
+  padding-left: 30px; 
+  width: 350px;
+  height: 650px;
+  padding-bottom: 255px;
+  padding-left: 0px;
+ }
+ .completa{
+  flex-wrap: nowrap;
+  display: flex;
+ }
+ .card-title, .card-date, .card-temp,.card-temp, .card-desc{
+  padding: 0;
+ }
+ .dias {
+  display: flex;
+  flex-wrap: nowrap;    
+  height: 165px;
+}
+.cuadro{
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 10px;
+}
+.col-md-8{
+  height: 175px;
+
+} 
+.tiempo{
+  width: 841px;
+}
+.estadisticas{
+  height: 205px;
+  flex-wrap: nowrap;
+  margin-top: 119px;
+  margin-left: 27px;
+}
+
+}
+
